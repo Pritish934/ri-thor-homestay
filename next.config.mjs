@@ -1,0 +1,15 @@
+const nextConfig = {
+  poweredByHeader: false,
+  compress: true,
+  images: {
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "images.unsplash.com",
+      },
+    ],
+    formats: ["image/avif", "image/webp"],
+  },
+};
+
+export default nextConfig;
