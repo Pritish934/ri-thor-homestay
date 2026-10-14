@@ -28,7 +28,14 @@ export const metadata = {
     siteName: site.name,
     title: `${site.name} | Stay in Meghalaya`,
     description: site.description,
-    images: [{ url: "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=1600&q=82" }],
+    images: [
+      {
+        url: "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=1600&q=82",
+      },
+    ],
+  },
+  verification: {
+    google: "CrMYoTHG4XiaQx_s3E8ROw-PlpGxd3UWTk-Qjl2d5cc",
   },
 };
 
