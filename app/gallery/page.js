@@ -10,26 +10,16 @@ export const metadata = {
 
 const images = [
   ["/images/bedroom.jpeg", "single bedrooms"],
+  ["/images/doublebed.jpeg", "doblebed bedroom"],
+  ["/images/fullhomestay.jpeg", "full homestay"],
+  ["/images/bathroom1.jpeg", "bathroom"],
+  ["/images/bathroom2.jpeg", "indian bathroom"],
   [
-    "https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?auto=format&fit=crop&w=1400&q=82",
-    "Bright bedroom interior",
+    "/images/doublebedroom1.jpeg",
+    "double bedroom with double bed and single bed",
   ],
-  [
-    "https://images.unsplash.com/photo-1540518614846-7eded433c457?auto=format&fit=crop&w=1400&q=82",
-    "Cozy room prepared for guests",
-  ],
-  [
-    "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1400&q=82",
-    "Warm living space",
-  ],
-  [
-    "https://images.unsplash.com/photo-1510798831971-661eb04b3739?auto=format&fit=crop&w=1400&q=82",
-    "Peaceful mountain landscape",
-  ],
-  [
-    "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=1400&q=82",
-    "Green landscape in the hills",
-  ],
+  ["/images/kitchen.jpeg", "kitchen room"],
+  ["/images/livingroom.jpeg", "living room"],
 ];
 
 export default function GalleryPage() {
